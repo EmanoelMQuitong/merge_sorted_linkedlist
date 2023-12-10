@@ -118,7 +118,10 @@ linked_list.insert_at_end(6)
 linked_list.insert_at_end(8)
 linked_list.insert_at_end(10)
 linked_list.insert_at_end(12)
+print("\n")
+print("Sorted Linked List 1: ")
 linked_list.printLinkedList()
+print("\n")
 
 
 
@@ -129,7 +132,10 @@ linked_list1.insert_at_end(5)
 linked_list1.insert_at_end(7)
 linked_list1.insert_at_end(9)
 linked_list1.insert_at_end(11)
+print("\n")
+print("Sorted Linked List 2: ")
 linked_list1.printLinkedList()
+print("\n")
 
 
 # Sort each linked list
@@ -139,6 +145,9 @@ linked_list1.merge_sort()
 # Merge the sorted linked lists
 merged_list = LinkedList()
 merged_list.head = merged_list._merge(linked_list.head, linked_list1.head)
+print("\n")
+print("Merged Lists: ")
 merged_list.printLinkedList()
+print("\n")
 
 
